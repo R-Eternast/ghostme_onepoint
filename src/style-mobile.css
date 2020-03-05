@@ -1,0 +1,442 @@
+/* Version Mobile */
+
+body {
+  margin: 0;
+  width: 414px;
+  background: #202020;
+  font-family: Darker Grotesque, sans-serif;
+  color:#ffffff;
+}
+
+section { height: 100vh; }
+
+a { text-decoration: none; }
+
+.hidden-mobile { display: none; }
+.hidden-desktop { display: block; }
+
+.hidden_politique_desktop { display: block; }
+.hidden_politique_mobile { display: none !important; }
+
+.first-page {
+  height: 736px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-image: url('https://cdn.zeplin.io/5e2eb887ab1ad87f9471a1c6/assets/27928504-F17F-4A3A-8C28-3BECBA8BAD11.png');
+  background-position: center;
+}
+
+.first-page_text { margin: 0 auto; }
+
+.logo {
+  width: 186px;
+  height: 38px;
+  object-fit: contain;
+  margin: 72px 108px 0 120px;
+}
+
+.hide-your-personal {
+  width: 362px;
+  height: 189px;
+  font-size: 65px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.parlons-en {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 183px;
+  width: 230px;
+  height: 100px;
+  border: none;
+  color: white;
+  background: #5773ff;
+  font-size: 23.8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.parlons-en img { margin-right: 5px; }
+
+.line {
+  width: 102.6px;
+  height: 1px;
+  border: solid 2.4px #ffffff;
+  background-color: white;
+}
+
+.second-page {
+  height: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: center;   
+}
+
+.second-page_img {
+  width: 230px;
+  height: 271px;
+  object-fit: cover;
+}
+
+.second-page_title{
+  font-size: 70px;
+  line-height: 0.66;
+  color: #ffffff;
+  width: 266px;
+  margin-bottom: 39px;
+}
+
+.second-page_text{
+  margin: 0 78px 0 40px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.1;
+}
+
+.second-page_text p{ margin-bottom: 20px; }
+
+.third-page {
+  height: 736px;
+  background: black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url('https://cdn.zeplin.io/5e2eb887ab1ad87f9471a1c6/assets/27928504-F17F-4A3A-8C28-3BECBA8BAD11.png');
+  background-position: center;
+}
+
+.button-play {
+  width: 44px;
+  height: 44px;
+  margin: 5px 0 5px 0;
+  cursor: pointer;
+  transition: 0.5s transform;
+}
+
+.button-play:hover {
+  transform: rotateZ(360deg);
+}
+
+
+.button-play_text {
+  height: 30px;
+  font-family: Darker Grotesque;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #655fff;
+  margin-bottom: 37px;
+  cursor: pointer
+}
+
+
+.evenement-participation {
+  height: 736px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.evenement-participation_title {
+  font-size: 70px;
+  line-height: 0.79;
+  color: #ffffff;
+  margin: 33px 40px 0px 33px;
+  width: 341px;
+  height: 165px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.evenement-participation_img {
+  width: 348px;
+  height: 402px;
+  margin: 33px 33px 0 33px;
+}
+
+.evenement-participation_button {
+  background-color: #5773ff;
+  width: 347px;
+  height: 50px;
+  border: none;
+  margin: 33px 33px 0 33px;
+  cursor: pointer;
+  transition: 0.4s transform;
+}
+
+.evenement-participation_button:hover {
+  transform: scale(1.05);
+}
+
+.evenement-participation_button p {
+  width: 347px;
+  height: 33px;
+  font-family: Darker Grotesque;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.comment-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-page_title {
+  width: 353px;
+  height: 118px;
+  font-family: Darker Grotesque;
+  font-size: 70px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.84;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+
+.comment-page_square {
+  width: 311.8px;
+  height: 374.2px;
+  border-style: solid;
+  border-width: 0.8px;
+  border-image-slice: 1;
+  margin: 50px 0 50px 0;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.comment-page_square:hover { border: 1px solid blueviolet; }
+
+.comment-page_square_text {
+  color: #ffffff;
+  font-family: Darker Grotesque;
+  letter-spacing: normal;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+.comment-page_square_text h4 {
+  width: 168px;
+  height: 40.5px;
+  font-size: 28.3px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.comment-page_square_text p {
+  width: 211.7px;
+  height: 100.4px;
+  font-size: 22.5px;
+  font-weight: 500;
+  line-height: 1.19;
+}
+
+.image-display {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-display_transition {
+  width: 100%;
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-between;
+  position: relative;
+}
+
+.image-display_picture {
+  width: 335px;
+  height: 441px;
+  object-fit: contain;
+}
+
+.image-display_rectangle {
+  margin-left: 32px;
+  width: 4px;
+  height: 441px;
+  background-color: #ff5f99;
+}
+
+.image-display h4 p {
+  font-family: Darker Grotesque;
+  color: #ffffff;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.image-display_transition h4 {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.1;
+  position: absolute;
+  bottom: -125px;
+  right: 0;
+}
+
+
+.image-display_text { margin-top: 32px; }
+
+.image-display div p {
+  width: 321px;
+  height: 101px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ghost-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.ghost-text h4 {
+  width: 200px;
+  height: 110px;
+  font-family: Darker Grotesque;
+  font-size: 70px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.79;
+  letter-spacing: normal;
+  margin: 63px 165px 22px 33px;
+}
+
+.ghost-text_text {
+  width: 341px;
+  height: 193px;
+  font-family: Darker Grotesque;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  margin-bottom: 25px;
+}
+
+.ghost-text_app { position: relative; }
+
+.ghost-text_app img { margin-left: 122px; }
+
+.ghost-text_comment1 {
+  width: 242.2px;
+  height: 69.9px;
+  opacity: 0.86;
+  border-radius: 6.3px;
+  box-shadow: 3px 1px 28px 0 rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: black;
+  font-size: 11.3px;
+  font-weight: 500;
+  line-height: 0.94;
+  position: absolute;
+  top: 75px;
+  left: 5px;
+  padding: 0 15px 0 15px;
+}
+
+.ghost-text_comment2 {
+  width: 242.2px;
+  height: 69.9px;
+  opacity: 0.86;
+  border-radius: 6.3px;
+  box-shadow: 3px 1px 28px 0 rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
+  color: black;
+  font-size: 11.3px;
+  font-weight: 500;
+  line-height: 0.94;
+  position: absolute;
+  top: 200px;
+  right: 55px;
+  padding: 0 15px 0 15px;
+}
+
+.ghost-text_text :last-child { margin-top: 20px; }
+
+.ghost-text_politique {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.ghost-text_politique_title {
+  width: 364px;
+  height: 28px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.ghost-text_politique_text {
+  width: 364px;
+  height: 94px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.footer-ghostme {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: raw;
+  height: 26px;
+  margin-bottom: 40px;
+}
+
+.footer-ghostme_reseaux {
+  width: 125px;
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.footer-ghostme_reseaux img {
+  width: 26px;
+  height: 26px;
+}
+
+.footer-ghostme_logo {
+  width: 125px;
+  height: 26px;
+  object-fit: contain;
+  margin-right: 25px;
+}

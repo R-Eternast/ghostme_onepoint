@@ -1,0 +1,289 @@
+/* Version Desktop */
+@media (min-width: 1440px) {
+
+    body {
+      width: 1440px;
+      height: 6476px;
+      border: 1px solid white;
+      margin: 0 auto;
+    }
+  
+    .hidden-mobile { display: block; }
+    .hidden-desktop { display: none; }
+    .hidden_politique_desktop { display: none !important; }
+
+    .first-page {
+      width: 100%;
+      height: 901px;
+    }
+  
+    .logo {
+      width: 222px;
+      height: 46px;
+      margin: 0 auto;
+      margin-top: 66px;
+    }
+  
+    .hide-your-personal {
+      height: 115px;
+      width: 100%;
+      font-size: 85px;
+      font-weight: 800;
+    }
+  
+    .parlons-en {
+      flex-direction: column;
+      width: 420px;
+      height: 140PX;
+      margin-left: 900px;
+      margin-right: 120px;
+      font-size: 30px;
+    }
+  
+    .line {
+      width: 130px;
+      height: 1px;
+      margin-top: 40px;
+      transition: 5ms;
+    }
+  
+    .second-page {
+      height: 900px;
+      flex-direction: row-reverse;
+      align-items: initial;
+    }
+  
+    .second-page_img {
+      margin: 0 121px 0 0;
+      width: 420px;
+      height: 900px;
+      border-style: solid;
+      border-width: 1px;
+      border-image-source: linear-gradient(205deg, #3bcde2 10%, #3598fe 74%, #655fff 49%, #ff5f99 31%, #ff9057 2%);
+      border-image-slice: 1;
+    }
+  
+    .second-page_text {
+      margin: 216px 0 0 0;
+      width: 901px;
+    }
+  
+    .second-page_text p {
+      width: 453px;
+      height: 124px;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.1;
+      margin: 0 296px 0 152px;
+    }
+  
+    .second-page_title {
+      width: 672px;
+      height: 150px;
+      font-size: 110px;
+      font-weight: bold;
+      margin: 0 296px 0 152px;
+    }
+    
+    .third-page {
+        width: 1440px;
+        height: 900px
+    }
+    
+    .button-play_text {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .evenement-participation {
+      width: 100%;
+      flex-direction: initial;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-bottom: 200px;
+      margin-top: 125px;
+    }
+  
+    .evenement-participation_button{
+      position: absolute;
+      left: 90px;
+      bottom: 150px;
+    }
+  
+    .evenement-participation_title {
+      margin: 0;
+      font-size: 110px;
+      width: 522px;
+      height: 338px;
+    }
+    
+    .evenement-participation_img {
+      width: 515px;
+      height: 668px;
+      margin: 0 0 0 138px;
+      border-right: 3px solid royalblue;
+    }
+
+    .comment-page {
+      margin-bottom: 358px;
+    }
+
+    .ItemMap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+  
+    .comment-page_title {
+      width: 1200px;
+      height: 86px;
+      font-size: 110px;  
+      line-height: 0.78;
+      margin-bottom: 56px;
+    }
+  
+    .comment-page_square { 
+        margin: 0;
+        width: 385px;
+        height: 462px;
+    }
+
+    .comment-page_square_text p {
+        font-size: 30px;
+        width: 270.3px;
+        height: 143px;
+    }
+
+    .comment-page_square_text h4 {
+        width: 278.3px;
+        height: 50px;
+        font-size: 35px;
+    }
+  
+    .image-display {
+      width: 100%;
+      flex-direction: row;
+    }
+    
+    .image-display_rectangle { margin-top: 0px; }
+
+    .image-display_transition {
+      width: min-content;
+      margin-left: 100px;
+    }
+  
+    .image-display_picture { margin-left: 58px; }
+  
+    .image-display_text {
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .image-display div p {
+      width: 657px;
+      height: 112px;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.1;  
+    }
+  
+    .image-display_text { margin-top: 132px; }
+
+    .image-display_text p { margin: 0; }
+  
+    .image-display h4 {
+      font-size: 110px;
+      width: 481px;
+      height: 150px;
+      top: 10px;
+      left: 320px;
+      margin: 0;
+    }
+
+    .ghost-text {
+      flex-direction: unset;
+      flex-wrap: wrap;
+      justify-content: center;
+      justify-content: space-around;
+      margin-top: 53px;
+      margin-bottom: 258px;
+    }
+
+    .ghost-text h4 {
+        margin: 0;
+        font-size: 110px;
+        width: 585px;
+        height: 150px
+    }
+
+
+    .ghost-text_text  {
+        width: 432px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .ghost-text_comment1 {
+        width: 432px;
+        height: 111px;
+        top: 370px;
+        left: -105px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .ghost-text_comment1 h5, .ghost-text_comment2 h5 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .ghost-text_comment2 {
+        width: 432px;
+        height: 111px;
+        left: -45px;
+        top: 550px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .ghost-text_app img {
+          width: 498px;
+          height: 503px;
+          object-fit: contain;
+          margin-top: 270px;
+    }
+
+    .sticky-gradient_line {
+        width: 100%;
+        height: 5px;
+        position: sticky;
+        bottom: 0;
+        background-image: linear-gradient(to right,
+         red,
+         orange ,
+         yellow ,
+         green,
+         blue,
+         indigo,
+         violet
+        );
+    }
+
+    .footer-ghostme {
+        height: 161px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        /* border-top: 5px solid blueviolet; */
+    }
+
+    .hidden_politique_mobile { 
+        width: 613px;
+        display: flex !important;
+        flex-direction: column;
+     }
+
+     .ghost-text_politique_text { width: 100%; }
+  }
